@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* main section */
+.headi{
+      margin-top: 25%;
+      font-size: 45px;
+      font-weight: 900;
+}
+.para1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.img1{
+    margin-top: 20%;
+}
+.sec{
+    display: flex;
+}
+.card-deck{
+    display: flex;
+    justify-content: center;
+}
+/* main end */
+.navbar {
+    height: 15%;
+}
+.navbar-collapse{
+    margin-left: 30%;
+    font-size: 20px;   
+}
+/* middle section */
+.container1{
+    width: 70%;
+    margin: 150px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 40px;
+}
+
+.btno{
+    color: black;
+    background-color: yellow;
+    border: none;
+    padding: 4px;
+    width: 110px;
+    margin-left: 5%;
+    border-radius: 5px;
+    margin-top: 6%;
+    font-size: 18px;
+    margin-bottom: 10%;
+}
+button:hover{
+    transform: translate(1.1);
+}
+.dropdown-menu:hover{
+    background-color: mediumorchid;
+}
+.drp{
+    font-size: 20px;
+}
+.drp:hover{
+         background-color: blue;
+}
+.carousel slide{
+    height: 30%;
+}
+
+/* middle end */
+/* footer */
+.footer{
+    margin-top: -3%;
+    background-color: black;
+    color: white;
+    width: 99vw;
+    overflow: hidden;
+}
+.fa-brands{
+    margin-left: 15px;
+    font-size: 30px;
+}
+/* footer end */
